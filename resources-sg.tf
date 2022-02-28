@@ -1,7 +1,7 @@
 resource "aws_security_group" "allow_tls" {
-  name        = "allow_tls"
+  name        = "terraform-enterprise-sandpit-test-sg"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-12345e"
+  vpc_id      = "vpc-09b43110d723bd947"
 
   ingress {
     description      = "TLS from VPC"
