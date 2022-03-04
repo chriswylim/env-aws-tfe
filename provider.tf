@@ -3,9 +3,10 @@ provider "aws" {
 }
 
 terraform {
+  # Ref: https://registry.terraform.io/providers/hashicorp/aws/latest
   required_providers {
     aws = {
-      version = "~> 3.47.0"
+      version = "~> 3.74.3"
     }
   }
 }
