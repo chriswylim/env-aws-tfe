@@ -1,0 +1,104 @@
+{
+  "aws_instance_profile": {
+    "value": "1"
+  },
+  "capacity_concurrency": {
+    "value": "10"
+  },
+  "capacity_cpus": {
+    "value": "0"
+  },
+  "capacity_memory": {
+    "value": "512"
+  },
+  "custom_image_tag": {
+    "value": "hashicorp/build-worker:now"
+  },
+  "enable_active_active": {
+    "value": "1"
+  },
+  "enc_password": {
+    "value": "2022"
+  },
+  "extern_vault_enable": {
+    "value": "0"
+  },
+  "force_tls": {
+    "value": "0"
+  },
+  "hairpin_addressing": {
+    "value": "1"
+  },
+  "iact_subnet_time_limit": {
+    "value": "60"
+  },
+  "installation_type": {
+    "value": "production"
+  },
+  "log_forwarding_enabled": {
+    "value": "0"
+  },
+  "metrics_endpoint_enabled": {
+    "value": "0"
+  },
+  "placement": {
+    "value": "placement_s3"
+  },
+  "tbw_image": {
+    "value": "default_image"
+  },
+  "tls_vers": {
+    "value": "tls_1_2_tls_1_3"
+  },
+  "restrict_worker_metadata_access": {
+    "value": "0"
+  },
+  "hostname": {
+    "value": "123.123.123.123"
+  },
+  "pg_dbname": {
+    "value": "tfe"
+  },
+  "pg_netloc": {
+    "value": "ptawsg-5tfedb02.crv7gzr8bkpo.ap-southeast-1.rds.amazonaws.com:5432"
+  },
+  "pg_password": {
+    "value": "ilovetfe"
+  },
+  "pg_user": {
+    "value": "hashicorp"
+  },
+  "production_type": {
+    "value": "external"
+  },
+  "redis_host": {
+    "value": "master.tfe-test-redis.kwsrdv.apse1.cache.amazonaws.com"
+  },
+  "redis_pass": {
+    "value": "CYSP6dGHxWvTQehPZg927Hjg"
+  },
+  "redis_port": {
+    "value": "6379"
+  },
+  "redis_use_tls": {
+    "value": "1"
+  },
+  "redis_use_password_auth": {
+    "value": "1"
+  },
+  "s3_bucket": {
+    "value": "ptaw-5tfe-bucket"
+  },
+  "s3_endpoint": {
+    "value": "https://ptaw-5tfe-bucket.s3.ap-southeast-1.amazonaws.com/"
+  },
+  "s3_region": {
+    "value": "ap-southeast-1"
+  },
+  "s3_sse": {
+    "value": ""
+  },
+  "s3_sse_kms_key_id": {
+    "value": ""
+  }
+}
