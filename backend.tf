@@ -6,9 +6,9 @@
 #   }
 # }
 
-terraform {
-  backend "s3" {
-    region  = "ap-southeast-1"
-    encrypt = true
-  }
-}
+# terraform {
+#   backend "s3" {
+#     region  = "ap-southeast-1"
+#     encrypt = true
+#   }
+# }
